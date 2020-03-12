@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		47AC2940A17DBA195888BF86 /* libPods-AFNetworkingTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1152DBD314F43B8DC80CEE6 /* libPods-AFNetworkingTest.a */; };
+		AE03BF31241A26030015F6AD /* AsynCView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE03BF30241A26030015F6AD /* AsynCView.m */; };
+		AE380F41241A92E20059C333 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE380F40241A92E10059C333 /* TableViewController.m */; };
 		AE3BF1DA23F1EB4000167FF4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE3BF1D923F1EB4000167FF4 /* AppDelegate.m */; };
 		AE3BF1DD23F1EB4000167FF4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE3BF1DC23F1EB4000167FF4 /* ViewController.m */; };
 		AE3BF1E023F1EB4000167FF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE3BF1DE23F1EB4000167FF4 /* Main.storyboard */; };
@@ -35,6 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		30BBCFD18AE353D4BF99C840 /* Pods-AFNetworkingTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFNetworkingTest.release.xcconfig"; path = "Target Support Files/Pods-AFNetworkingTest/Pods-AFNetworkingTest.release.xcconfig"; sourceTree = "<group>"; };
+		79435ECA5047C4E9A20D789C /* Pods-AFNetworkingTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFNetworkingTest.debug.xcconfig"; path = "Target Support Files/Pods-AFNetworkingTest/Pods-AFNetworkingTest.debug.xcconfig"; sourceTree = "<group>"; };
+		AE03BF2F241A26030015F6AD /* AsynCView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AsynCView.h; sourceTree = "<group>"; };
+		AE03BF30241A26030015F6AD /* AsynCView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AsynCView.m; sourceTree = "<group>"; };
+		AE380F3F241A92E10059C333 /* TableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TableViewController.h; path = /Users/aruoreki/Downloads/AFNetworkingTest/AFNetworkingTest/TableViewController.h; sourceTree = "<absolute>"; };
+		AE380F40241A92E10059C333 /* TableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TableViewController.m; path = /Users/aruoreki/Downloads/AFNetworkingTest/AFNetworkingTest/TableViewController.m; sourceTree = "<absolute>"; };
 		AE3BF1D523F1EB4000167FF4 /* AFNetworkingTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AFNetworkingTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE3BF1D823F1EB4000167FF4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AE3BF1D923F1EB4000167FF4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +60,7 @@
 		AE3BF1F823F1EB4200167FF4 /* AFNetworkingTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AFNetworkingTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE3BF1FC23F1EB4200167FF4 /* AFNetworkingTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFNetworkingTestUITests.m; sourceTree = "<group>"; };
 		AE3BF1FE23F1EB4200167FF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1152DBD314F43B8DC80CEE6 /* libPods-AFNetworkingTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AFNetworkingTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47AC2940A17DBA195888BF86 /* libPods-AFNetworkingTest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +89,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C5F87BDCBDFCCF023971AE3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D1152DBD314F43B8DC80CEE6 /* libPods-AFNetworkingTest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A4970ABEECA9FC3A876E6F26 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				79435ECA5047C4E9A20D789C /* Pods-AFNetworkingTest.debug.xcconfig */,
+				30BBCFD18AE353D4BF99C840 /* Pods-AFNetworkingTest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		AE3BF1CC23F1EB4000167FF4 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +113,8 @@
 				AE3BF1F023F1EB4200167FF4 /* AFNetworkingTestTests */,
 				AE3BF1FB23F1EB4200167FF4 /* AFNetworkingTestUITests */,
 				AE3BF1D623F1EB4000167FF4 /* Products */,
+				A4970ABEECA9FC3A876E6F26 /* Pods */,
+				3C5F87BDCBDFCCF023971AE3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +131,15 @@
 		AE3BF1D723F1EB4000167FF4 /* AFNetworkingTest */ = {
 			isa = PBXGroup;
 			children = (
+				AE380F3F241A92E10059C333 /* TableViewController.h */,
+				AE380F40241A92E10059C333 /* TableViewController.m */,
 				AE3BF1D823F1EB4000167FF4 /* AppDelegate.h */,
 				AE3BF1D923F1EB4000167FF4 /* AppDelegate.m */,
 				AE3BF1DB23F1EB4000167FF4 /* ViewController.h */,
 				AE3BF1DC23F1EB4000167FF4 /* ViewController.m */,
 				AE3BF1DE23F1EB4000167FF4 /* Main.storyboard */,
+				AE03BF2F241A26030015F6AD /* AsynCView.h */,
+				AE03BF30241A26030015F6AD /* AsynCView.m */,
 				AE3BF1E123F1EB4200167FF4 /* Assets.xcassets */,
 				AE3BF1E323F1EB4200167FF4 /* LaunchScreen.storyboard */,
 				AE3BF1E623F1EB4200167FF4 /* Info.plist */,
@@ -139,6 +173,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AE3BF20123F1EB4200167FF4 /* Build configuration list for PBXNativeTarget "AFNetworkingTest" */;
 			buildPhases = (
+				E83B1EE9B66CF9A8341F2ECC /* [CP] Check Pods Manifest.lock */,
 				AE3BF1D123F1EB4000167FF4 /* Sources */,
 				AE3BF1D223F1EB4000167FF4 /* Frameworks */,
 				AE3BF1D323F1EB4000167FF4 /* Resources */,
@@ -257,6 +292,31 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		E83B1EE9B66CF9A8341F2ECC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AFNetworkingTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AE3BF1D123F1EB4000167FF4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -265,6 +325,8 @@
 				AE3BF1DD23F1EB4000167FF4 /* ViewController.m in Sources */,
 				AE3BF1E823F1EB4200167FF4 /* main.m in Sources */,
 				AE3BF1DA23F1EB4000167FF4 /* AppDelegate.m in Sources */,
+				AE380F41241A92E20059C333 /* TableViewController.m in Sources */,
+				AE03BF31241A26030015F6AD /* AsynCView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +495,7 @@
 		};
 		AE3BF20223F1EB4200167FF4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79435ECA5047C4E9A20D789C /* Pods-AFNetworkingTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -449,6 +512,7 @@
 		};
 		AE3BF20323F1EB4200167FF4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30BBCFD18AE353D4BF99C840 /* Pods-AFNetworkingTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
